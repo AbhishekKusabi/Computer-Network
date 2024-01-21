@@ -1,7 +1,7 @@
     import java.util.Scanner;
 
 
-    public class Routing{
+    public class DistanceVectorRouting{
 
         void calculateroutingtable(int n , int distance[][])
         {
@@ -72,7 +72,7 @@
                 }
             }
 
-            new Routing().calculateroutingtable(n , distance);
+            new DistanceVectorRouting().calculateroutingtable(n , distance);
             
         }
         
