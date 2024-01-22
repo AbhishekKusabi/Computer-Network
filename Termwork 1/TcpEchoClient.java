@@ -16,9 +16,6 @@ public class TcpEchoClient {
                 PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);) {
             System.out.println("Connected to " + HOSTNAME + " on port " + PORT);
 
-            
-
-            
             String data = new String();
             while (!data.equals("Bye")) {
                 System.out.print("Enter: ");
